@@ -1,10 +1,22 @@
 {
   "name": "myBlog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "author": "xd",
   "license": "MIT",
+  "description": "这是一个简单的blog demo，使用typescript，前端 技术栈react+redux+antd,主要在css分离打包，js文件拆分打包，js按需加载做了些简单的优化，引入antd三方组件也做了按需打包",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duanguang/react-antd-blog.git"
+  },
+  "keywords": [
+    "blog",
+    "react-blog",
+    "react-antd",
+    "react-antd-typescript",
+    "react-antd-blog",
+    "typescript-blog"
+  ],
   "devDependencies": {
     "babel-loader": "6.2.1",
     "babel-plugin-antd": "^0.1.2",
